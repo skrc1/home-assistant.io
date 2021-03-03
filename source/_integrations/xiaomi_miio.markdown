@@ -878,7 +878,7 @@ Set the target humidity.
 | `entity_id`               |       no | Only act on a specific Xiaomi miIO fan entity.                  |
 | `humidity`                |       no | Target humidity. Allowed values are 30, 40, 50, 60, 70 and 80   |
 
-### Service `fan.xiaomi_miio_set_dry_on` (Air Humidifier CA and CB)
+### Service `xiaomi_miio.fan_set_dry_on` (Air Humidifier CA and CB)
 
 Turn the dry mode on.
 
@@ -886,7 +886,7 @@ Turn the dry mode on.
 |---------------------------|----------|---------------------------------------------------------|
 | `entity_id`               |       no | Only act on a specific Xiaomi miIO fan entity.          |
 
-### Service `fan.xiaomi_miio_set_dry_off` (Air Humidifier CA and CB)
+### Service `xiaomi_miio.fan_set_dry_off` (Air Humidifier CA and CB)
 
 Turn the dry mode off.
 
